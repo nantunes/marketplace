@@ -701,13 +701,16 @@ public abstract class BasePluginService implements IPluginService {
 
     try {
       for( String installedKar : this.getKarService().list() ) {
-       potentialOsgiPluginIds.add( installedKar );
+        potentialOsgiPluginIds.add( installedKar );
       }
     } catch ( Exception e ) { }
 
-    for( Feature feature : this.getFeaturesService().listInstalledFeatures() ) {
-      potentialOsgiPluginIds.add( feature.getName() );
-    }
+    try {
+      for( Feature feature : this.getFeaturesService().listInstalledFeatures() ) {
+        potentialOsgiPluginIds.add( feature.getName() );
+      }
+    } catch ( Exception e ) { }
+
     return potentialOsgiPluginIds;
   }
 

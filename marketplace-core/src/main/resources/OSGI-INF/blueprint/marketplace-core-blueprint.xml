@@ -25,7 +25,7 @@
 
   <!-- HttpService Whiteboard registration of web assets -->
   <service id="marketplaceWeb"
-           interface="org.ops4j.pax.web.extender.whiteboard.ResourceMapping">
+           interface="org.ops4j.pax.web.service.whiteboard.ResourceMapping">
     <bean class="org.ops4j.pax.web.extender.whiteboard.runtime.DefaultResourceMapping">
       <property name="alias" value="/pentaho-marketplace/${project.version}"/>
       <property name="path" value="/web"/>
