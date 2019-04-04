@@ -74,23 +74,23 @@
       <artifactId>jquery</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.webjars.bower</groupId>
+      <groupId>org.webjars.npm</groupId>
       <artifactId>angular</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.webjars.bower</groupId>
+      <groupId>org.webjars.npm</groupId>
       <artifactId>angular-route</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.webjars.bower</groupId>
+      <groupId>org.webjars.npm</groupId>
       <artifactId>angular-sanitize</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.webjars.bower</groupId>
+      <groupId>org.webjars.npm</groupId>
       <artifactId>angular-animate</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.webjars.bower</groupId>
+      <groupId>org.webjars.npm</groupId>
       <artifactId>angular-translate</artifactId>
     </dependency>
     <dependency>

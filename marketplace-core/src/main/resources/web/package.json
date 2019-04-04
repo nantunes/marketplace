@@ -8,19 +8,10 @@
   "packages": [
     "pentaho/marketplace"
   ],
-  "__NOTE__": "manual configuration of angular-translate mapping and shim needed because of BACKLOG-11236",
   "map": {
     "pentaho/marketplace": {
       "marketplaceApp": "pentaho/marketplace/js/app",
       "marketplace-lib": "pentaho/marketplace/lib/marketplace"
-    },
-    "angular-translate@${angular-translate.version}/angular-translate": {
-      "angular": "angular@${angular.version}/angular"
-    }
-  },
-  "shim": {
-    "angular-translate@${angular-translate.version}/angular-translate/angular-translate": {
-      "deps": ["angular"]
     }
   },
   "dependencies": {

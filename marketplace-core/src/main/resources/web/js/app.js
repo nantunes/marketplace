@@ -45,6 +45,8 @@ define( [ 'angular',
 
       app.config(['$translateProvider', function ($translateProvider) {
 
+        $translateProvider.useSanitizeValueStrategy('sanitize');
+
         $translateProvider.useStaticFilesLoader({
           prefix: 'lang/messages_',
           suffix: '.properties',
